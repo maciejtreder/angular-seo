@@ -3,5 +3,15 @@
     "project": "angularSeo",
     "skipInstall": false,
     "directory": "."
+  },
+  "serverless": {
+    "project": "angularSeo",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }
